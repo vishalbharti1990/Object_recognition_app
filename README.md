@@ -24,5 +24,7 @@ To deploy the app on google cloud:
 * Initialize app engine.
 * Create a new app.
 * Launch the cloud shell and run
-> > git clone https://bitbucket.org/vrbharti1990/ora/src/master/
-> > gcloud app deploy
+
+`git clone https://bitbucket.org/vrbharti1990/ora/src/master/`
+
+`gcloud app deploy`
