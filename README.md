@@ -11,10 +11,18 @@ The app provides a simple interface with two tabs:
 
 ![](snap2.png)
 
-**The user can upload an image using the interface and once the image is uploaded, a preview is shown.**
+### The user can upload an image using the interface and once the image is uploaded, a preview is shown.
 
 ![](snap3.png)
 
-**When the user clicks on 'Get Predictions', the app gets the predictions from all four trained models and shows the resulting labels.**
+### When the user clicks on 'Get Predictions', the app gets the predictions from all four trained models and shows the resulting labels.
 
 ![](snap4.png)
+
+## Deployment:
+To deploy the app on google cloud:
+* Initialize app engine.
+* Create a new app.
+* Launch the cloud shell and run
+> > git clone https://bitbucket.org/vrbharti1990/ora/src/master/
+> > gcloud app deploy
